@@ -12,7 +12,7 @@ const startTimer=()=>{
     return
   }
   timerRef.current=setInterval(()=>{
-    settime((prev)=>{prev+1})
+    settime((prev)=>prev+1)
   },1000)
 }
 
