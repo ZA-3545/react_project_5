@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../style.css'
 const Control = ({start,stop,reset}) => {
   return (
     <div className='control'>
